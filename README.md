@@ -6,11 +6,17 @@ This creates a directory structure and also drops a readme.MD as well as another
 
 creates structure like this:
 resourceBundleYYMMDD
+
   |APPRULE
+  
     |0.1
+    
   |FEED
+  
     |0.1
+    
   |LOGCOLLECTOR
+  
     |0.1
   |LOGDEVICE
     |0.1
