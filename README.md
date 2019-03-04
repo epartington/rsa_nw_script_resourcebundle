@@ -49,3 +49,15 @@ creates structure like this:
 >>resourceBundleZipper.py
   
 Content is placed in the folder structures according to the readme file and the python script takes care of zipping the right content up and creating the xml file that links all the content together.
+
+Example:
+Upload an application rule using an NWR file
+
+`python resourcebundlecreator.py`
+move the file.nwr to resourcebundle20190304/APPRULE/0.1/
+`cd resourcebundle20190304/
+python resourcebundlezipper.py`
+copy the resultant resourcebundle20190304.zip and upload to RSA Netwitness Config > Deploy Bundle
+
+
+
