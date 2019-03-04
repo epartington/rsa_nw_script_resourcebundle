@@ -10,24 +10,25 @@ creates structure like this:
 
 >resourceBundleYYMMDD
 
-  >>APPRULE
+>>APPRULE
   
-    0.1
+>>>0.1
     
-  FEED
+>FEED
   
-    0.1
+>>0.1
     
-  LOGCOLLECTOR
+>>>LOGCOLLECTOR
   
-    0.1
+>0.1
   
-  LOGDEVICE
+>>LOGDEVICE
     
-    0.1
-  LUAPARSER
+>>>0.1
+
+>LUAPARSER
     
-    0.1
+>>0.1
   
   MALWARERULE
     
