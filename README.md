@@ -8,7 +8,7 @@ This creates a directory structure and also drops a readme.MD as well as another
 
 creates structure like this:
 
-resourceBundleYYMMDD
+```resourceBundleYYMMDD
 
   APPRULE
   
@@ -45,6 +45,6 @@ resourceBundleYYMMDD
   
   resourceBundleInfo.xml
   
-  resourceBundleZipper.py
+  resourceBundleZipper.py```
   
   Content is placed in the folder structures according to the readme file and the python script takes care of zipping the right content up and creating the xml file that links all the content together.
