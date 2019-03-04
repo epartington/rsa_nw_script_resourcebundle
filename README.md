@@ -14,38 +14,38 @@ creates structure like this:
   
 >>>0.1
     
->FEED
+>>FEED
   
->>0.1
+>>>0.1
     
->>>LOGCOLLECTOR
+>>LOGCOLLECTOR
   
->0.1
+>>>0.1
   
 >>LOGDEVICE
     
 >>>0.1
 
->LUAPARSER
+>>LUAPARSER
     
->>0.1
+>>>0.1
   
-  MALWARERULE
+>>MALWARERULE
     
-    0.1
+>>>0.1
   
-  REREPORT
+>>REREPORT
     
-    0.1
+>>>0.1
   
-  RERULE
+>>RERULE
     
-    0.1
+>>>0.1
   
-  README.MD
+>>README.MD
   
-  resourceBundleInfo.xml
+>>resourceBundleInfo.xml
   
-  resourceBundleZipper.py
+>>resourceBundleZipper.py
   
-  Content is placed in the folder structures according to the readme file and the python script takes care of zipping the right content up and creating the xml file that links all the content together.
+Content is placed in the folder structures according to the readme file and the python script takes care of zipping the right content up and creating the xml file that links all the content together.
