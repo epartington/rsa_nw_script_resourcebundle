@@ -57,9 +57,9 @@ Upload an application rule using an NWR file
 
 move the file.nwr to resourcebundle20190304/APPRULE/0.1/
 
-`cd resourcebundle20190304/
+`cd resourcebundle20190304/`
 
-python resourcebundlezipper.py`
+`python resourcebundlezipper.py`
 
 copy the resultant resourcebundle20190304.zip and upload to RSA Netwitness Config > Deploy Bundle
 
