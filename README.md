@@ -1,7 +1,7 @@
 # ResourceBundle Creator Script
 Script to create a resource bundle for netwitness content
 
-python resourcebundlecreator.py
+`python resourcebundlecreator.py`
 
 Python script to create the initial folder structure of the resourceBundle
 This creates a directory structure and also drops a readme.MD as well as another script that is run at the end to create the xml and zip file
