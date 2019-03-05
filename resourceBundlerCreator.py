@@ -2,13 +2,18 @@
 
 # build the folder structure for packaging
 
-# version: 1.0
-# date: 2019-02-01
+# version: 1.1
+# date: 2019-03-04
 
 import os
 import uuid
 import re
 from datetime import datetime
+
+try:
+    import zipfile
+except ImportError:
+    print ("Module zipfile is required for the resourceBundleZipper.py module, please install manually")
 
 # generate time for the resourceBundle name
 now = datetime.now()
